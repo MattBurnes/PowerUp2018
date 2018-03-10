@@ -23,7 +23,7 @@ public class OI {
 	
 	// Operator Controls
 	public static boolean OelevateBrake () { return Operator.getButtonX(); }
-	public static double OelevateControl() { return Operator.getLeftYAxis();}
+	public static double OshooterControl() { return Operator.getLeftYAxis();}
 	public static boolean OgetIntakeReverse () { return Operator.getButtonLB(); }
 	public static boolean OgetIntakeGO () { return Operator.getButtonRB(); }
 	

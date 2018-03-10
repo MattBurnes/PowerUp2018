@@ -41,6 +41,7 @@ public class DriveCommand extends Command {
 		
 		Robot.ClimberSubsystem.solenoidInit(OI.DclimbEngage());
 		Robot.ClimberSubsystem.winch(OI.DclimbSpinnyboiL(), OI.DclimbSpinnyboiR());
+		Robot.ShooterSubsystem.driveShooter(OI.OshooterControl());
 
 	}
 
